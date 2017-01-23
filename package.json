@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/foundersandcoders/webrtc-nori-jen/issues"
   },
-  "homepage": "https://github.com/foundersandcoders/webrtc-nori-jen#readme"
+  "homepage": "https://github.com/foundersandcoders/webrtc-nori-jen#readme",
+  "dependencies": {
+    "navigator": "^1.0.1"
+  }
 }
