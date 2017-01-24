@@ -2,12 +2,55 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <script type="text/javascript" src="./video.js"></script>
+    <title>webRTC</title>
+    <!-- <link rel='stylesheet' href='main.css'> -->
   </head>
   <body>
-    <video class="video">
-    </video>
-
+    <h1>webRTC</h1>
+    <div id="user1" class="user-container">
+      <p>User 1</p>
+      <video id='video-display-1' class="video-display"></video>
+      <button class="call-btn-user1">Call</button>
+      <select name="target" class="dropdown" id="user1-dropdown">
+        <option value="2">User 2</option>
+        <option value="3">User 3</option>
+        <option value="4">User 4</option>
+      </select>
+      <button class="hangup-btn">Hang up</button>
+    </div>
+    <div id="user2" class="user-container">
+      <p>User 2</p>
+      <video id='video-display-2' class="video-display"></video>
+      <button class="call-btn-user2">Call</button>
+      <select name="target" class="dropdown" id="user2-dropdown">
+        <option value="1">User 1</option>
+        <option value="3">User 3</option>
+        <option value="4">User 4</option>
+      </select>
+      <button class="hangup-btn">Hang up</button>
+    </div class="user-container">
+    <div id="user3" class="user-container">
+      <p>User 3</p>
+      <video id='video-display-3' class="video-display"></video>
+      <button class="call-btn-user3">Call</button>
+      <select name="target" class="dropdown" id="user3-dropdown">
+        <option value="1">User 1</option>
+        <option value="2">User 2</option>
+        <option value="4">User 4</option>
+      </select>
+      <button class="hangup-btn">Hang up</button>
+    </div>
+    <div id="user4" class="user-container">
+      <p>User 4</p>
+      <video id='video-display-' class="video-display"></video>
+      <button class="call-btn-user4">Call</button>
+      <select name="target" class="dropdown" id="user4-dropdown">
+        <option value="1">User 1</option>
+        <option value="2">User 2</option>
+        <option value="3">User 3</option>
+      </select>
+      <button class="hangup-btn">Hang up</button>
+    </div>
+    <script type='text/javascript' src="app.js"></script>
   </body>
 </html>
